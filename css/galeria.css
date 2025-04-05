@@ -1,0 +1,113 @@
+/* Estilos generales para la galería */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Distribuir las imágenes en varias columnas */
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.grid-gallery__item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px; /* Agregar bordes redondeados */
+}
+
+/* Estilos para la imagen */
+.grid-gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+
+/* Estilo de la capa que se mostrará al pasar el cursor */
+.grid-gallery__item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);  /* Fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Inicialmente está oculto */
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 8px; /* Bordes redondeados para la capa */
+}
+
+/* Estilo del texto dentro de la capa */
+.grid-gallery__item .overlay-text {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+/* Efecto al pasar el cursor */
+.grid-gallery__item:hover .overlay {
+    opacity: 1; /* Mostrar la capa al pasar el cursor */
+}
+
+.grid-gallery__item:hover .grid-gallery__image {
+    transform: scale(1.1); /* Aumentar la imagen ligeramente */
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-xxl {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-dark {
+    background-color: #343a40;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.display-3 {
+    font-size: 3rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.hero-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.animated {
+    animation-duration: 1s;
+}
+
+.slideInDown {
+    animation-name: slideInDown;
+}
+
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

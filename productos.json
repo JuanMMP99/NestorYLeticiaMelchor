@@ -1,0 +1,81 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Fusión Ancestral",
+        "precio": 1250.00,
+        "descripcion": "Pieza artesanal que fusiona técnicas ancestrales con un toque moderno, elaborada a mano con materiales de alta calidad.",
+        "imagen": "img/fusion.png",
+        "categoria": "Decoración",
+        "etiqueta": "Fusiones"
+      },
+      {
+        "id": 2,
+        "nombre": "Tribu Milenaria",
+        "precio": 980.50,
+        "descripcion": "Escultura que representa rituales tribales, capturando las tradiciones pasadas de generación en generación.",
+        "imagen": "img/tribu.png",
+        "categoria": "Arte",
+        "etiqueta": "Tierra"
+      },
+      {
+        "id": 3,
+        "nombre": "Jaguar Sagrado",
+        "precio": 1450.00,
+        "descripcion": "Escultura detallada del jaguar, un animal sagrado que simboliza poder y protección en culturas prehispánicas.",
+        "imagen": "img/jaguar.png",
+        "categoria": "Escultura",
+        "etiqueta": "Inframundo"
+      },
+      {
+        "id": 4,
+        "nombre": "Serpiente Emplumada",
+        "precio": 1680.75,
+        "descripcion": "Obra inspirada en Quetzalcóatl, la serpiente emplumada, deidad que representa la dualidad de la vida.",
+        "imagen": "img/serpiente.png",
+        "categoria": "Mitología",
+        "etiqueta": "Aire"
+      },
+      {
+        "id": 5,
+        "nombre": "Armadillo",
+        "precio": 2100.00,
+        "descripcion": "Reproducción de códices antiguos que muestran conocimientos astronómicos y calendáricos con técnicas tradicionales.",
+        "imagen": "img/piezas/ARM-08 (1).png",
+        "imagen2": "img/piezas/ARM-08 (2).png",
+        "imagen3": "img/piezas/ARM-08 (3).png",
+        "categoria": "Historia",
+        "etiqueta": "Fusiones"
+      },
+      {
+        "id": 6,
+        "nombre": "Borrego",
+        "precio": 875.25,
+        "descripcion": "Máscara ceremonial tallada a mano, usada en rituales para conectarse con los espíritus de la naturaleza.",
+        "imagen": "img/piezas/BOR-09 (1).png",
+        "imagen2": "img/piezas/",
+        "imagen3": "img/piezas/",
+        "categoria": "Ceremonial",
+        "etiqueta": "Inframundo"
+      },
+      {
+        "id": 7,
+        "nombre": "Vasija Ceremonial",
+        "precio": 760.50,
+        "descripcion": "Vasija hecha con técnicas alfareras tradicionales, decorada con símbolos que representan los elementos de la vida.",
+        "imagen": "img/vasija.png",
+        "categoria": "Cerámica",
+        "etiqueta": "Tierra"
+      },
+      {
+        "id": 8,
+        "nombre": "Tejido Ancestral",
+        "precio": 550.00,
+        "descripcion": "Textil elaborado con técnicas milenarias, con diseños y colores que reflejan tradiciones locales.",
+        "imagen": "img/tejido.png",
+        "categoria": "Textil",
+        "etiqueta": "Agua"
+      }
+    ]
+  }
+  

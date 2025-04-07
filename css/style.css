@@ -505,3 +505,9 @@
     padding-right: 0;
     border-right: none;
 }
+
+.mapa-con-estilo {
+    border: 3px solid #ccc;         /* Borde gris claro */
+    border-radius: 10px;            /* Esquinas redondeadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.651); /* Sombra suave */
+}
